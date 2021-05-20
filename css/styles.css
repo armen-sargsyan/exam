@@ -64,7 +64,7 @@ header {
 
 .tit .text {
     font-size: 50px;
-    color: mediumblue;
+    color: #516af2;
     font-family: sans-serif;
     font-weight: 600;
 }
@@ -524,11 +524,18 @@ footer{
     
 }
 .left_footer .icons img{
-     margin:5px
+     margin:5px;
+     vertical-align: middle;
      
 }
 .left_footer a{
     text-decoration: none;
+    text-decoration: none;
+    background-color: #f7edfb;
+    padding: 3px 5px;
+    display: inline-block;
+    border-radius: 2px;
+}
 }
 .right_footer .tables li{
     display: flex;
